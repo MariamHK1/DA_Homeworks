@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flex1</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		.flex-box {
+			background-color: #FFA500;
+			display: flex;
+			margin: 100px auto;
+			gap: 20px;
+			padding: 20px;
+			max-width: 70%;
+			flex-direction: row;
+			flex-wrap: wrap;
+			counter-reset: flex;
+		}
+
+		.flex-box__item {
+			background-color: palegreen;
+			padding: 15px;
+			flex-grow: 1; 
+			flex-shrink: 0;
+			flex-basis: 250px;;
+		}
+		
+		.flex-box__item:before {
+			counter-increment: flex;
+			content: counter(flex)"/ ";
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex-box">
+		<div class="flex-box__item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, ratione.</div>
+		<div class="flex-box__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+		<div class="flex-box__item">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+		<div class="flex-box__item">Lorem ipsum dolor, sit amet, consectetur adipisicing elit.</div>
+		<div class="flex-box__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</div>
+		<div class="flex-box__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, perspiciatis!</div>
+		<div class="flex-box__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti, sint laborum nostrum tenetur ea!</div>
+	</div>
+	
+</body>
+</html>
