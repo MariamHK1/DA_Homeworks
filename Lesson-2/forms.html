@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<body>
+	<form method="Get" enctype="multipart/form-data">
+		<label for="name"> Name </label>
+		<input type="text" name="name" id="name" value="User" required><br>
+		<label for="email">Email</label>	
+		<input type="email" name="email" id="email"><br>
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" min="1" max="200" step="3"><br>
+		<label for="birthdate">Birthdate</label>
+		<input id="date" type="date" name="date" min="2018-06-10"><br>
+	<div>
+		Favorite Drink<br>
+		<label for="coffee"> Coffee</label>
+		<input type="checkbox" name="coffee" id="coffee"><br>
+		<label for="tea"> Tea</label>
+		<input type="checkbox" name="tea" id="tea"><br>
+		<label for="water"> Water</label>
+		<input type="checkbox" name="water" id="water"><br>
+    </div>
+	<div>
+		Gender<br>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male"><br>
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="female"><br>
+	</div>
+		<label for="eyeColor">Eye Color</label><br>
+		<select name="eyeColor" id="eyeColor" multiple>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="brown">Brown</option>
+			<option value="grey">Grey</option>
+		</select> <br>
+		<label for="bio">Bio</label>
+		<textarea name="bio" id="bio"></textarea>><br>
+		<label for="file">File</label>
+		<input type="file" name="file" id="file"> <br>
+		<label for="phone"> Phone</label>
+		<input type="tel" name="phone" id="phone"><br>
+		<label for="url">URL</label>
+		<input type="url" name="url" id="url"><br>
+		<label for="color">Color</label>
+		<input type="color" name="color" id="color"><br>
+		<label for="gsearch">Google Search:</label>
+		<input type="search" name="gsearch" id="gsearch"><br>
+		<label for="password">Password</label>
+		<input name="password" type="password" value="hidden"> <br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset" >
+	 </form>
+</body>
+</html>

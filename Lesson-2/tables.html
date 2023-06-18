@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tables</title>
+</head>
+<body>
+	<table border="1" style="width: 100%">
+		<tr>
+			<th></th>
+			<th colspan="4">Months</th>
+		</tr>
+		<tr>
+			<th style="width:10%">N</th>
+			<th>January</th>
+			<th>February</th>
+			<th>March</th>
+			<th>April</th>
+		</tr>
+		<tr>
+			<th rowspan="2">a</th>
+			<td>text1</td>
+			<td rowspan="2">text2</td>
+			<td colspan="2" rowspan="2">text3</td>
+		</tr>
+	<tr>
+			<td>text4</td>
+		</tr>
+		<tr>
+			<th>b</th>
+			<td>text5</td>
+			<td colspan="3">text6</td>
+		</tr>
+		<tr>
+			<th>c</th>
+			<td colspan="3">text7</td>
+			<td>text8</td>
+		</tr>
+	</table>
+</body>
+</html>
