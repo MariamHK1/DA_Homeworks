@@ -1,0 +1,58 @@
+h1 {
+  color: #818589;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+aside {
+  color: #818589;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: right;
+}
+
+body {
+  background-color: #fff;
+}
+
+p {
+  color: #818589;
+  margin: 80px auto;
+  text-align: center;
+  width: 35%;
+}
+
+.box__item {
+  color: #818589;
+  margin: 80px auto;
+  width: 35%;
+}
+
+.centered {
+  color: #fff;
+  font-size: 60px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 100%;
+  padding: 20px;
+}
+
+footer {
+  bottom: 1rem;
+  color: #818589;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+}

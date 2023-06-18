@@ -1,0 +1,60 @@
+$primary-color: #fff;
+$text-color: #818589;
+h1 {
+    color: $text-color;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+aside {
+    color: $text-color; 
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: right; 
+}
+
+body {
+    background-color: $primary-color;
+}
+
+p  {
+    color: $text-color;
+    margin: 80px auto;
+    text-align: center;
+    width: 35%;
+}
+
+.box__item {
+    color: $text-color;
+    margin: 80px auto;
+    width: 35%;
+}
+
+.centered {
+    color: $primary-color;
+    font-size: 60px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-container {
+background-color: $primary-color;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin: 100px auto;
+max-width: 100%;
+padding: 20px;
+}
+
+footer {   
+    bottom: 1rem;
+    color: $text-color;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
